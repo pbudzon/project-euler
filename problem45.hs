@@ -10,9 +10,3 @@ pentagons = map pentagonal [1..]
 hexagons = map hexagonal [1..]
 
 problem45 = (((triangles `intersect` pentagons) `intersect` hexagons) !! 2)
-
-
-
-----1533776805
-
-
